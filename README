@@ -1,0 +1,6 @@
+WalrusDiff, free to use and distribute (but no plagerizing!).
+
+To use this code (in part or in whole) for the purpose of colorizing diff outputs through html, you must cite this project as the parent project. If, however, you use this code in part or in whole for a purpose wholly unrelated to colorizing diff outputs through html, consider this project a reference book.
+
+########################################
+This project uses ruby, as well as an external diff tool (specifically svndiff and GNUdiff). The external tool builds the difference file, and the ruby program parses it.
