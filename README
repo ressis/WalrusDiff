@@ -3,4 +3,12 @@ WalrusDiff, free to use and distribute (but no plagerizing!).
 To use this code (in part or in whole) for the purpose of colorizing diff outputs through html, you must cite this project as the parent project. If, however, you use this code in part or in whole for a purpose wholly unrelated to colorizing diff outputs through html, consider this project a reference book.
 
 ########################################
-This project uses ruby, as well as an external diff tool (specifically svndiff and GNUdiff). The external tool builds the difference file, and the ruby program parses it.
+This project uses ruby, as well as an external diff tool (specifically svndiff). The external tool builds the difference file, and the ruby program parses it.
+
+Usage: svndiff | ruby diffTree.rb
+
+TODO:
+
+1. Make environment unaware (currently windows specific)
+2. clean up after itself (delete the files it produces when it's all said and done)
+3. Allow you to put it in the path without it breaking
