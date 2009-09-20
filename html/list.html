@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Diff Results</title>
+		<script language='javascript'>
+			function hide(element){
+				element.style.display = 'none'
+			}
+
+			function show(element){
+				element.style.display = ''
+			}
+
+			function showOrHide(id){
+				element = document.getElementById(id)
+				if(element.style.display == 'none')
+					show(element)
+				else
+					hide(element)
+			}
+		</script>
+	</head>
+	<body>
+		<%= root.to_html %>
+	</body>
+</html>
